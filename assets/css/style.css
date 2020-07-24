@@ -1,3 +1,6 @@
-body {
-  background-color: #ccc;
+.background-img {
+  background-color: aqua;
+  height: 70vh;
+  background: url("../image/background.jpg") no-repeat;
+  background-size: cover;
 }
