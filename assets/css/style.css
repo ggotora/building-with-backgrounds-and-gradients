@@ -6,6 +6,13 @@
 html {
   margin: 0;
   padding: 0;
+  font-family: Lucida Grande;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 60% 40%;
+  height: 100%;
 }
 
 .bg-img {
@@ -17,6 +24,8 @@ html {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -30,18 +39,12 @@ a {
 .nav {
   position: relative;
   top: 60px;
-  width: 80%;
-  background: rgb(138, 138, 138);
-  background:
-    linear-gradient(
-      180deg,
-      rgba(138, 138, 138, 1) 0%,
-      rgba(119, 119, 119, 1) 25%,
-      rgba(96, 96, 96, 1) 50%,
-      rgba(119, 119, 119, 1) 75%,
-      rgba(138, 138, 138, 1) 100%
-    );
-  height: 40px;
+  width: 980px;
+  height: 33px;
+  font-size: 12px;
+  line-height: 18px;
+  background: rgb(124,122,122);
+  background: linear-gradient(180deg, rgba(124,122,122,1) 0%, rgba(131,127,127,1) 30%, rgba(82,80,80,1) 50%, rgba(84,82,82,1) 70%, rgba(79,77,77,1) 100%);
   margin: auto;
   border-radius: 5px;
 }
@@ -53,19 +56,69 @@ a {
 }
 
 .nav li {
-  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  border: 1px solid #686666;
   width: 100%;
-}
-
-.nav div {
-  border: 1px solid black;
+  height: 100%;
 }
 
 .nav a {
   display: inline-block;
   color: var(--sec-clr);
-  font-weight: 900;
+  font-weight: 400;
   width: 100%;
   text-align: center;
-  margin: 0 10px;
+  height: 100%;
+  margin-top: 15%;
+}
+
+.nav a:hover {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: var(--sec-clr);
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  background-color: rgba(61, 57, 57, 0.705);
+}
+
+.nav input {
+  width: 120px;
+  border-radius: 20px;
+  background: rgb(124,122,122);
+  background: linear-gradient(180deg, rgba(124,122,122,1) 0%, rgba(131,127,127,1) 30%, rgba(82,80,80,1) 50%, rgba(84,82,82,1) 70%, rgba(79,77,77,1) 100%);  
+}
+
+.search {
+  align-items: center;
+  padding-right: 10px;
+}
+
+.search i {
+  color: var(--sec-clr);
+  position: relative;
+  left: 20px;
+}
+
+/* Headers section */
+
+
+
+/* Promotions section */
+
+.promotions {
+
+}
+
+/* Footer section */
+
+footer {
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+  font-size: 10px;
+
 }
