@@ -70,7 +70,6 @@ nav ul {
 nav li {
   width: 100%;
   height: 100%;
-  
 }
 
 nav a {
@@ -82,6 +81,11 @@ nav a {
   height: 100%;
   padding: 10px 0;
   border-right: 1px solid rgba(63, 62, 62, 0.514);
+}
+
+.footer-top a {
+  justify-content: space-evenly;
+  padding: 0 5px;
 }
 
 .nav a:hover {
@@ -168,9 +172,18 @@ nav a {
   justify-content: space-around;
 }
 
+footer img {
+  display: block;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  padding: 0 5px;
+}
+
 .promotions img {
   border: 1px solid #fff;
 }
+
 /* Main Styling */
 
 /* Headers section */
@@ -183,7 +196,6 @@ footer {
   align-items: center;
   font-size: 10px;
   height: 60px;
-  font-size: 10px;
   line-height: 12px;
   color: #6e6e6e;
 }
@@ -193,21 +205,8 @@ footer {
   justify-content: space-between;
 }
 
-.footer-top a{
-  justify-content: space-evenly;
-  padding: 0 5px;
-}
-
 .a-color {
-  color: #0088cc;
-}
-
-footer img {
-  display: block;
-  height: 12px;
-  width: 12px;
-  border-radius: 50%;
-  padding: 0 5px;
+  color: #08c;
 }
 
 .footer-bottom {
