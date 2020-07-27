@@ -120,9 +120,9 @@ nav a {
   height: 100%;
 }
 
-.main h1,
-.main h2,
-.main h3 {
+.headings h1,
+.headings h2,
+.headings h3 {
   font-family: "Quicksand", sans-serif;
   margin: 30px auto;
   width: 60%;
@@ -130,18 +130,18 @@ nav a {
   font-weight: 100;
 }
 
-.main h1 {
+.headings h1 {
   font-size: 70px;
   line-height: 36px;
   font-weight: lighter;
 }
 
-.main h2 {
+.headings h2 {
   font-size: 30px;
   line-height: 40px;
 }
 
-.main h3 {
+.headings h3 {
   font-size: 30px;
   line-height: 40px;
 }
