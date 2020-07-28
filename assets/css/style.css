@@ -24,6 +24,7 @@ p {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 ul {
@@ -173,7 +174,8 @@ nav li {
   grid-column: 1/-1;
   grid-row: 2/3;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex: 1;
 }
 
 footer img {
