@@ -174,8 +174,8 @@ nav li {
   grid-column: 1/-1;
   grid-row: 2/3;
   width: 100%;
-  justify-content: space-around;
   flex: 1;
+  justify-content: space-around;
   overflow: hidden;
 }
 
@@ -194,10 +194,6 @@ footer img {
 .promotions img {
   border: 1px solid #fff;
 }
-
-/* Main Styling */
-
-/* Headers section */
 
 /* Footer section */
 
