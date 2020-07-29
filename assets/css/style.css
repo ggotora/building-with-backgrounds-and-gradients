@@ -1,0 +1,229 @@
+:root {
+  --text-clr: #666;
+  --sec-clr: #fff;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Lucida Grande, sans-serif;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+}
+
+.bg-img {
+  height: 70vh;
+  background: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+nav {
+  position: relative;
+  top: 85px;
+  background: rgb(124, 122, 122);
+  background:
+    linear-gradient(
+      180deg,
+      rgba(124, 122, 122, 1) 0%,
+      rgba(131, 127, 127, 1) 30%,
+      rgba(82, 80, 80, 1) 50%,
+      rgba(84, 82, 82, 1) 70%,
+      rgba(79, 77, 77, 1) 100%
+    );
+  margin: auto;
+  width: 980px;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+nav ul {
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav li {
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid rgba(63, 62, 62, 0.514);
+}
+
+.nav a {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  color: var(--sec-clr);
+  font-weight: bold;
+  height: 100%;
+  padding: 7px 0;
+}
+
+.footer-top a {
+  justify-content: space-evenly;
+  padding: 0 5px;
+}
+
+.hover-effect:hover {
+  background: rgb(124, 122, 122);
+}
+
+.left-radius {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.fa-apple {
+  font-size: 22px;
+}
+
+.nav input {
+  width: 80px;
+  border-radius: 20px;
+  background: rgb(124, 122, 122);
+  background:
+    linear-gradient(
+      180deg,
+      rgba(124, 122, 122, 1) 0%,
+      rgba(131, 127, 127, 1) 30%,
+      rgba(82, 80, 80, 1) 50%,
+      rgba(84, 82, 82, 1) 70%,
+      rgba(79, 77, 77, 1) 100%
+    );
+}
+
+.nav input:focus {
+  background-color: var(--sec-clr);
+  outline: 1px solid rgb(61, 59, 59);
+}
+
+.search {
+  align-items: center;
+  padding-right: 10px;
+}
+
+.search i {
+  color: var(--sec-clr);
+  position: relative;
+  left: 20px;
+}
+
+.main {
+  margin-top: 130px;
+  text-align: center;
+  width: 100%;
+  grid-template-rows: 60% 40%;
+  height: 100%;
+}
+
+.headings h1,
+.headings h2,
+.headings h3 {
+  font-family: "Nunito", sans-serif;
+  margin: 30px auto;
+  width: 60%;
+  color: rgb(226, 223, 223);
+  font-weight: 200;
+}
+
+.headings h1 {
+  font-size: 50px;
+  line-height: 36px;
+}
+
+.headings h2 {
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.headings h3 {
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.headings {
+  grid-row: 1/2;
+}
+
+/* Promotions section */
+.promotions {
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  width: 100%;
+  flex: 1;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.promotions a {
+  width: 25%;
+}
+
+footer img {
+  display: block;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  padding: 0 5px;
+}
+
+.promotions img {
+  border: 1px solid #fff;
+}
+
+/* Footer section */
+
+footer {
+  width: 80%;
+  margin: 20px auto;
+  align-items: center;
+  font-size: 10px;
+  height: 60px;
+  line-height: 12px;
+  color: #6e6e6e;
+}
+
+footer p {
+  flex: 3;
+}
+
+.footer-top ul {
+  flex: 3;
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.a-color {
+  color: #08c;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
